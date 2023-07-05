@@ -1,0 +1,65 @@
+.main-div-inform{
+    margin: 0;
+    padding: 0;
+}
+
+.login-main-div{
+    display: flex;
+    margin: 20px auto;
+    padding: 40px 80px;
+    align-items: center;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    justify-content: center;
+}
+
+.form{
+    width: 40%;
+    margin: 20px auto;
+    padding: 77px 40px;
+    border-radius: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    background-color: #fff;
+}
+
+.heading {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: serif;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.welcome-div{
+    background-color: #1677ff;
+    width: 160px;
+    height: 32px;
+    border-radius: 10px 3px;
+}
+
+.welcome{
+    font-size: 20px;
+    text-align: center;
+    font-family: serif;
+    color: white;
+}
+
+:where(.css-dev-only-do-not-override-14wwjjs).ant-btn-primary {
+    color: #fff;
+    border-radius: 10px 3px;
+    width: 100px;
+    height: 32px;
+    font-family: serif;
+    background-color: #1677ff;
+    box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+}
+
+:where(.css-dev-only-do-not-override-14wwjjs).ant-input-affix-wrapper >input.ant-input {
+    padding: 0;
+    font-size: inherit;
+    font-family: serif;
+    padding-left: 5px;
+    border: none;
+    border-radius: 0;
+    outline: none;
+}
