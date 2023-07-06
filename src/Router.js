@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Loging from './Loging';
-import Dashboard from './Dashboard';
+import Loging from './Form/Loging';
+import Dashboard from './Dashboard/Dashboard';
 
 function Router() {
     return (

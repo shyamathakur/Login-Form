@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import 'antd/dist/reset.css';
 import axios from 'axios';
 import "./Login.css";
-import login from "./Image/login.png"
+import login from "../Image/login.png"
 import { Form, Input, Button, message } from 'antd';
 import { MailOutlined, LockOutlined } from '@ant-design/icons';
 import { useNavigate } from "react-router-dom";
